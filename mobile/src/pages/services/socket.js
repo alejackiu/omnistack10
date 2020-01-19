@@ -1,6 +1,6 @@
 import socketio from 'socket.io-client';
 
-const socket = socketio('http://192.168.1.69:3030', {
+const socket = socketio('https://jackiu02.azurewebsites.net/', {
     autoConnect: false
 });
 
